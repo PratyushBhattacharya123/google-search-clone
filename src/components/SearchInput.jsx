@@ -43,6 +43,7 @@ const SearchInput = () => {
         value={searchQuery}
         autoFocus
         className="grow outline-0 text-black/[0.87]"
+        id="searchInputBox"
       />
       <div className="flex items-center gap-3">
         {!!searchQuery && (
